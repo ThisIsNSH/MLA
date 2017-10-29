@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gunjal.prahlad.prahladgunjal.ThirdFragment">
+    <LinearLayout
+        android:id="@+id/contactsurface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+
+android:elevation="1dp"
+android:alpha="1"
+
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="ask us"
+            android:textAllCaps="true"
+            android:textColor="#494949"
+            android:textSize="35sp"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="sans-serif-condensed"
+            android:foreground="@drawable/shape9"
+            android:hint="Name"
+            android:onClick="name"
+            android:padding="8dp"
+            android:textColorHint="@color/colorPrimaryDark1"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="sans-serif-condensed"
+            android:foreground="@drawable/shape9"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColorHint="@color/colorPrimaryDark1"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="sans-serif-condensed"
+            android:foreground="@drawable/shape9"
+            android:textColorHint="@color/colorPrimaryDark1"
+            android:hint="Address"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:fontFamily="sans-serif-condensed"
+            android:foreground="@drawable/shape9"
+            android:hint="Query/Message"
+            android:inputType="textLongMessage"
+            android:padding="8dp"
+            android:textColorHint="@color/colorPrimaryDark1"
+            android:textSize="20sp"
+
+
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape10"
+            android:fontFamily="sans-serif-condensed"
+
+            android:text="send"
+
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+        android:elevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+
+            android:orientation="vertical">
+            <com.tzanou.PercentVisibleLayout.PercentVisibleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/custom_layout">
+            <LinearLayout
+                android:id="@+id/contactsurface1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+
+                android:visibility="invisible"
+                android:background="#f0f0f0"
+
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="ask us"
+                    android:textAllCaps="true"
+                    android:textColor="#494949"
+                    android:textSize="35sp"
+                    android:visibility="invisible"
+                    android:textStyle="bold"
+
+                    />
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:visibility="invisible"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-condensed"
+                    android:foreground="@drawable/shape9"
+                    android:hint="Name"
+                    android:onClick="name"
+                    android:padding="8dp"
+                    android:textColorHint="@color/colorPrimaryDark1"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:visibility="invisible"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-condensed"
+                    android:foreground="@drawable/shape9"
+                    android:hint="Mobile Number"
+                    android:inputType="number"
+                    android:padding="8dp"
+                    android:textColorHint="@color/colorPrimaryDark1"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:visibility="invisible"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-condensed"
+                    android:foreground="@drawable/shape9"
+                    android:textColorHint="@color/colorPrimaryDark1"
+                    android:hint="Address"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:visibility="invisible"
+                    android:fontFamily="sans-serif-condensed"
+                    android:foreground="@drawable/shape9"
+                    android:hint="Query/Message"
+                    android:inputType="textLongMessage"
+                    android:padding="8dp"
+                    android:textColorHint="@color/colorPrimaryDark1"
+                    android:textSize="20sp"
+
+
+                    android:textStyle="italic" />
+
+                <Button
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:visibility="invisible"
+                    android:background="@drawable/shape10"
+                    android:fontFamily="sans-serif-condensed"
+
+                    android:text="send"
+
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            </com.tzanou.PercentVisibleLayout.PercentVisibleLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+android:translationZ="2dp"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+android:layout_marginBottom="8dp"
+
+                android:layout_marginRight="8dp"
+
+                android:background="#f3f3f3"
+                android:elevation="4dp"
+                android:id="@+id/one"
+                android:layout_height="180dp">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="match_parent"
+    android:src="@drawable/pic1"
+
+    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quote ya kuch bhi ya koi kaam ki baat .jo man kare"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:textColor="#494949"
+                    android:gravity="start"
+                    android:textAllCaps="true"
+                    android:textStyle="bold|italic"
+                    android:layout_margin="16dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:background="#f3f3f3"
+                android:elevation="4dp"
+                android:id="@+id/two"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic1"
+                    android:scaleType="centerCrop"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quote ya kuch bhi ya koi kaam ki baat .jo man kare"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:textColor="#494949"
+                    android:gravity="start"
+                    android:textAllCaps="true"
+                    android:textStyle="bold|italic"
+                    android:layout_margin="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:background="#f3f3f3"
+                android:elevation="4dp"
+                android:id="@+id/three"
+                android:layout_height="180dp">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic1"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quote ya kuch bhi ya koi kaam ki baat .jo man kare"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:textColor="#494949"
+                    android:gravity="start"
+                    android:textAllCaps="true"
+                    android:textStyle="bold|italic"
+                    android:layout_margin="16dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:background="#f3f3f3"
+                android:elevation="4dp"
+
+                android:layout_height="180dp">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic1"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quote ya kuch bhi ya koi kaam ki baat .jo man kare"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:textColor="#494949"
+                    android:gravity="start"
+                    android:textAllCaps="true"
+                    android:textStyle="bold|italic"
+                    android:layout_margin="16dp"/>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

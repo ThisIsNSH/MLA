@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PRAHLAD GUNJAL APP</string>
+    <string name="action_settings">Feedback</string>
+    <string name="fab">fab</string>
+    <string name="simple4">simple42</string>
+    <string name="simple3">simple32</string>
+    <string name="simple2">simple22</string>
+    <string name="simple1">simple12</string>
+    <string name="image1">image11</string>
+    <string name="image2">image21</string>
+    <string name="image3">image31</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">XXXXXXXXXX</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">XXXXXXXX</string>
+    <string name="image4">image41</string>
+</resources>

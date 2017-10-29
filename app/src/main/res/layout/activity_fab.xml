@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gunjal.prahlad.prahladgunjal.fab">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="#80000000"
+        android:id="@+id/fabsurface"
+android:transitionName="@string/fab"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#00000000"
+       android:foreground="@drawable/shape1"
+       android:onClick="back"
+       >
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+android:orientation="vertical"
+
+        android:layout_gravity="center"
+        android:background="#00f3f3f3"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:elevation="4dp"
+
+
+        android:layout_height="wrap_content" >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00f3f3f3"
+            android:scrollbars="none"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#00f3f3f3"
+                android:onClick="back1"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"
+                        android:text="Facebook"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:id="@+id/facebook"
+
+                        android:background="#3b5998"
+                        android:textAllCaps="true"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:id="@+id/twitter"
+                        android:textAllCaps="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+
+                        android:text="Twitter"
+                        android:textSize="20sp"
+                        android:background="#0084b4"
+                        android:textColor="#ffffff"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/top"
+                    android:background="#00f3f3f3"
+android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contacts"
+                        android:background="#00f3f3f3"
+                        android:textColor="#ffffff"
+
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="35sp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginBottom="8dp"
+    android:background="#ffffff"></LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="mobile: 21321321"
+                        android:textAlignment="center"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:background="#00f3f3f3"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+
+                        android:background="#00f3f3f3"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="mobile: 81321321"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="mobile: 132321"
+                        android:textAlignment="center"
+                        android:background="#00f3f3f3"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/center"
+                    android:background="#00f3f3f3"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:gravity="center"
+                        android:background="#00f3f3f3"
+                        android:textColor="#ffffff"
+
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textSize="35sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="#ffffff"></LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="abcd@abcd.com"
+                        android:background="#00f3f3f3"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical"
+                    android:id="@+id/bottom"
+                    android:layout_gravity="center"
+                    android:background="#00f3f3f3"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="address"
+                        android:background="#00f3f3f3"
+
+                        android:textColor="#ffffff"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textSize="30sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="#ffffff"></LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Village - Dharmpura\nTehsil - Ladpura Kota\nHal Mukam 7- D-15\nMahavir Nagar\nVistar Plan, Kota"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:background="#00f3f3f3"
+                        android:textColor="#000000"
+android:layout_marginBottom="8dp"
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="#00f3f3f3"
+            android:layout_marginTop="0dp">
+
+            <FrameLayout
+                android:id="@+id/fab1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+
+android:onClick="call"
+                android:background="#00f3f3f3"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    android:background="#00f3f3f3"
+
+                    android:src="@drawable/circle" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:elevation="11dp"
+                    android:background="#00f3f3f3"
+                    android:src="@drawable/phone1" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fab2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+android:onClick="facebook"
+                android:layout_marginTop="8dp"
+                android:background="#00f3f3f3"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    android:background="#00f3f3f3"
+                    android:src="@drawable/circle" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:elevation="11dp"
+                    android:background="#00f3f3f3"
+                    android:src="@drawable/facebook1" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fab3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#00f3f3f3"
+                android:layout_marginTop="8dp"
+android:onClick="twitter"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    android:background="#00000000"
+                    android:src="@drawable/circle" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:elevation="11dp"
+                    android:background="#00f3f3f3"
+                    android:src="@drawable/twitter1" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fab4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+android:onClick="locate"
+                android:background="#00f3f3f3"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    android:background="#00f3f3f3"
+                    android:src="@drawable/circle" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:elevation="11dp"
+                    android:background="#00f3f3f3"
+                    android:src="@drawable/globe1" />
+            </FrameLayout>
+        </LinearLayout>
+
+</LinearLayout>
+
+
+    </FrameLayout>
+</FrameLayout>

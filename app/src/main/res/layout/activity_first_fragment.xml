@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#f0f0f0"
+    android:layout_alignParentLeft="true"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="SHRI PRAHLAD GUNJAL"
+        android:textColor="#494949"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="MLA, KOTA NORTH (RAJASTHAN)"
+        android:textColor="#494949"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="BHARTIYA JANTA PARTY"
+        android:textColor="#494949"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+android:layout_marginTop="210dp"
+
+        tools:context="com.gunjal.prahlad.prahladgunjal.FirstFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+android:visibility="invisible"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic2" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f0f0f0"
+
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="180dp"
+android:orientation="vertical"
+                    android:onClick="info1"
+                    android:id="@+id/info1"
+                    android:transitionName="@string/simple1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="#f3f3f3"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/info1image"
+                        android:transitionName="@string/image1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Info Tab1"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="180dp"
+android:orientation="vertical"
+                    android:onClick="info2"
+                    android:id="@+id/info2"
+                    android:transitionName="@string/simple2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="#f3f3f3"
+                    android:elevation="4dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/info2image"
+                        android:transitionName="@string/image2"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Info Tab2"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="180dp"
+android:orientation="vertical"
+                    android:onClick="info3"
+                    android:id="@+id/info3"
+                    android:transitionName="@string/simple3"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="#f3f3f3"
+                    android:elevation="4dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/info3image"
+                        android:transitionName="@string/image3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Info Tab3"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="180dp"
+android:orientation="vertical"
+                    android:transitionName="@string/simple4"
+                    android:id="@+id/info4"
+                    android:onClick="info4"
+                    android:layout_marginBottom="8dp"
+
+                    android:layout_marginRight="8dp"
+                    android:background="#f3f3f3"
+                    android:elevation="4dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/info4image"
+                        android:transitionName="@string/image4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Info Tab4"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

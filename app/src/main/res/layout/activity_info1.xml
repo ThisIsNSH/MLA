@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gunjal.prahlad.prahladgunjal.info1">
+
+
+    <LinearLayout
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#F3F3F3"
+        android:elevation="4dp"
+        android:transitionName="@string/simple1"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#F3F3F3"
+            >
+
+            <ImageView
+                android:id="@+id/info1image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+android:transitionName="@string/image1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:layout_alignBottom="@+id/info1image"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:background="#00000000"
+                android:text="info tab1"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+
+                android:background="#F3F3F3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#F3F3F3"
+                    android:fontFamily="sans-serif-condensed"
+android:id="@+id/text1"
+
+                    android:padding="4dp"
+                    android:text="dfgdfg\ndfgdfg\ndfgdfg\ndfgdfg\ndfgdfgs\nsdsfgsdg"
+                    android:textAllCaps="true"
+                    android:textColor="#494949"
+                    android:textSize="20sp"
+
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
+
